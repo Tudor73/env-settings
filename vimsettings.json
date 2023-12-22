@@ -1,0 +1,189 @@
+{
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.fontSize": 16,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "yaml": false,
+        "javascript": true,
+        "lean4": false,
+        "python": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "[csharp]": {},
+    "workbench.colorCustomizations": {},
+    "editor.tokenColorCustomizations": {},
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnType": true
+    },
+    "notebook.lineNumbers": "on",
+    "editor.inlayHints.enabled": "off",
+    "python.defaultInterpreterPath": "C:\\Users\\atud2\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "go.toolsManagement.autoUpdate": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 160,
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-p>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<S-h>"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "<S-l>"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                ":vsplit"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                ":w!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                ":q!"
+            ]
+        },
+        {
+            "before": [
+                "<C-u>"
+            ],
+            "after": [
+                "<C-u>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<C-d>"
+            ],
+            "after": [
+                "<C-d>",
+                "z",
+                "z"
+            ]
+        }
+    ],
+    "vim.commandLineModeKeyBindings": [],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        }
+    ],
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "editor.formatOnSave": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.mutable": {
+                "underline": false
+            }
+        }
+    },
+    "prettier.tabWidth": 4,
+    "liveServer.settings.port": 0,
+    "errorLens.messageBackgroundMode": "message",
+    "errorLens.delay": 1000,
+    "errorLens.margin": "9ch",
+    "errorLens.onSave": true,
+    "errorLens.onSaveTimeout": 500,
+    "rust-analyzer.lens.run.enable": false,
+    "rust-analyzer.lens.debug.enable": false,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.fontLigatures": false,
+    "terminal.integrated.fontFamily": "Consolas",
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 16,
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false
+}
